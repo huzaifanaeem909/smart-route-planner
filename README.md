@@ -1,4 +1,4 @@
-# Route Optimization and Fuel Cost API
+# Smart Route Planner API
 
 ## Overview
 This Django application provides an API designed to calculate and display:

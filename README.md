@@ -15,6 +15,10 @@ This Django application provides an API designed to calculate and display:
   - Charging costs ($0.50 per kWh default)
 - Interactive map showing route and charging stations
 
+## Example Map
+Below is an example of the route map with marked fuel stops:
+
+![Route Map](https://github.com/huzaifanaeem909/smart-route-planner/blob/main/LA_NY.png)
 
 ## How It Works
 1. **Input**: Users provide a start and finish location within the USA.

@@ -1,11 +1,13 @@
+import os
 import requests
-from django.conf import settings
+from dotenv import load_dotenv
 from geopy.distance import geodesic
 
 
 class FuelService:
     def __init__(self):
-        self.api_key = settings.DOE_API_KEY
+        load_dotenv()
+        self.api_key = os.getenv('DOE_API_KEY')
         self.base_url = ("https://developer.nrel.gov/api/alt-fuel-stations/v1/nearest.json")
         self.SEARCH_INTERVAL = 100  # Search every 100 miles
 
